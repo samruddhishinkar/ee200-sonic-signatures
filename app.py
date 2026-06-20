@@ -22,6 +22,9 @@ st.set_page_config(
 
 st.markdown(
     """
+    ### Created By
+    - [Saksham](https://github.com/ksakiit2007-rgb)
+    - [Samruddhi](https://github.com/samruddhishinkar)
     <style>
     .stApp { background: #f6f4ef; color: #17201f; }
     [data-testid="stSidebar"] { background: #17201f; }
