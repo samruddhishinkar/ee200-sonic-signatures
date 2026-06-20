@@ -1,4 +1,4 @@
-# Sonic Signatures - EE200 Q3B
+# Sonic Signatures - EE200 Q3B.
 
 A Streamlit audio-fingerprinting app for identifying short song clips.
 
@@ -10,7 +10,7 @@ A Streamlit audio-fingerprinting app for identifying short song clips.
 - Exact `results.csv` columns: `filename,prediction`
 - Precomputed 50-song fingerprint database
 
-## Run locally
+## Run locally.
 
 ```bash
 pip install -r requirements.txt
