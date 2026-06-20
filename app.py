@@ -198,8 +198,12 @@ else:
             result = analyse(upload)
             rows.append(
                 {
-                    "filename": Path(upload.name).stem,
-                    "prediction": result.prediction,
+                    "filename": upload.name,
+                    "prediction": (
+                        result.prediction
+                        if result.prediction == "No confident match"
+                        else Path(result.prediction).stem
+                    ),
                 }
             )
         progress.empty()
